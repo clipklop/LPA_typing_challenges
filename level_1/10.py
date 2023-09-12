@@ -1,9 +1,10 @@
 import uuid
+from typing import Union
 
 from constants import ___
 
 
-def stringify(value: ___) -> ___:
+def stringify(value: Union[str, int, float, None]) -> str:
     pass
 
 
