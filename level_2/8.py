@@ -1,7 +1,9 @@
+from typing import Mapping, Union
+
 from constants import ___
 
 
-def calculate_total_spent_for_users(users_ids: ___, users_ids_to_users_map: ___) -> ___:
+def calculate_total_spent_for_users(users_ids: set[int], users_ids_to_users_map: Mapping[int, tuple[Union[str, int, list[int]]]]) -> int:
     pass
 
 
