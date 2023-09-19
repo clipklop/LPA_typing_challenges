@@ -1,9 +1,7 @@
-from typing import Union
-
 from constants import ___
 
 
-def get_current_user() -> tuple[Union[str, int]]:
+def get_current_user() -> tuple[str, int, str]:
     pass
 
 
